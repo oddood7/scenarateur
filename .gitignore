@@ -1,0 +1,81 @@
+# Environnements virtuels Python
+venv/
+env/
+.venv/
+.env/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Données générées par l'application
+histoires/
+personnages/
+historique.db
+historique.json
+config.json
+config_gui.json
+
+# Modèles téléchargés (cache Hugging Face)
+.cache/
+transformers_cache/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*~
+.histoires
+
+# Clés et secrets (si ajoutés plus tard)
+.env
+secrets.json
+api_keys.txt
+
+# Fichiers de test
+test_output/
+*.test
